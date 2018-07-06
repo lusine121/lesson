@@ -90,18 +90,6 @@ class Person {
          }
 
     }
-    
-    $person = new Person ("Anna","Petrosyan","1995-11-10");
-    echo "<pre>";
-    print_r($person);
-    $person->setFirstName("Davit");
-    $person->setAge("1993-11-16");
-    echo"<pre>";
-    print_r($person);
-    $person->setLastName("Karapetyan");
-    $person->setAge("1997-06-18");
-    echo"<pre>";
-    print_r($person);
 
     $student = new Student("Anna","Petrosyan","1995-11-10");
     echo "<pre>";
