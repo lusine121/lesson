@@ -54,40 +54,6 @@ class Person {
 
 //Student class
     class Student extends Person{
-        function displayPersonFirstName(){
-
-            return $this->firstname;
-
-        }
-
-        public function setFirstName($new_first_name){
-
-            $this->firstname = $new_first_name;
-    
-        }
-
-        function displayPersonLastName(){
-
-            return $this->lastname;
-
-        }
-
-        public function setLastName($new_last_name){
-
-            $this->lastname = $new_last_name;
-    
-        }
-
-        function displayPersonAge(){
-
-            return $this->birth_day;
-
-        }
-
-        public function setAge($new_birth_day){
-
-            $this->birth_day = $new_birth_day;
-         }
 
     }
 
